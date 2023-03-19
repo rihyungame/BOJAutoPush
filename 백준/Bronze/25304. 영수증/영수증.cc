@@ -5,8 +5,8 @@ int main() {
 
 	std::cin >> totalPrice >> nTotal;
 
-	int* stuffPrice = new int(nTotal);
-	int* nStuff = new int(nTotal);
+	int* stuffPrice = new int[nTotal];
+	int* nStuff = new int[nTotal];
 
 	for (int i = 0; i < nTotal; i++) {
 		std::cin >> stuffPrice[i] >> nStuff[i];

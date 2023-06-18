@@ -4,7 +4,7 @@
 int main() {
 	std::string s;
 	std::cin >> s;
-	int multiple = 1;
+	int multiple = 0;
 	int count = 0;
 	bool break_on = false;
 
@@ -14,7 +14,7 @@ int main() {
 				break_on = true;
 				break;
 			}
-			std::cout << s[i + multiple - 1];
+			std::cout << s[i + multiple];
 			count++;
 		}
 		if (break_on)

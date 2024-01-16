@@ -21,7 +21,7 @@ int main() {
         string_vec.push_back(s);
     }
 
-    std::stable_sort(string_vec.begin(), string_vec.end());
+    std::sort(string_vec.begin(), string_vec.end());
     
     std::stable_sort(string_vec.begin(), string_vec.end(), comp);
 

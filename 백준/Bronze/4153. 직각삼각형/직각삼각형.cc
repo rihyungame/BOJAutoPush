@@ -8,13 +8,6 @@ int main()
 	while (true)
 	{
 		std::cin >> n1 >> n2 >> max;
-		
-		if (n1 < n2)
-		{
-			double temp = n1;
-			n1 = n2;
-			n2 = temp;
-		}
 
 		if (max < n1)
 		{

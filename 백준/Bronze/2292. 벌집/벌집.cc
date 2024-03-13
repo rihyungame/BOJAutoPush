@@ -2,11 +2,11 @@
 
 int main()
 {
-	long long n;
+	int n;
 	std::cin >> n;
 
-	long long count = 0;
-	long long total = 1;	
+	int count = 0;
+	int total = 1;	
 
 	while (true)
 	{
@@ -19,6 +19,7 @@ int main()
 
 			break;
 		}
+
 		total += count * 6;
 		count++;
 	}

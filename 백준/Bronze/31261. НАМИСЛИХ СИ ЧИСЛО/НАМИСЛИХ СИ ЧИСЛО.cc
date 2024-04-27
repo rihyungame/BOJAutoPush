@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-
 int main()
 {
 	std::ios_base::sync_with_stdio(false);
@@ -12,10 +11,9 @@ int main()
 	// (x / a - a = a( a + b)
 	// x = a^2 ( a + b ) + a^2
 
-	int a, b, x;
+	int a, b;
 	std::cin >> a >> b;
-	x = pow(a, 2) * (a + b) + pow(a, 2);
-	std::cout << x;
+	std::cout << (int)(pow(a, 2) * (a + b) + pow(a, 2));
 
 	return 0;
 }
